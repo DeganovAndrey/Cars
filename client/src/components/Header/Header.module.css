@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #d9d9d9;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 46px;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoStart {
+  color: #6c47ff;
+  font-size: 22px;
+  width: 68.1px;
+  height: 18.24px;
+}
+.logoEnd {
+  color: #000000;
+  font-size: 22px;
+  width: 68.1px;
+  height: 18.24px;
+  font-weight: 200;
+}
+
+.button {
+  width: 135px;
+  height: 36px;
+  background-color: #4f2cd9;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #4f2cd9;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: all transform 500ms ease;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.button:hover {
+  opacity: 0.75;
+  transform: scale(1.001);
+}
+
+.iconCatalog {
+  margin-right: 7px;
+  color: #ffffff;
+}
+
+.logoInfo {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.logoNumber {
+  margin-left: 31px;
+  margin-right: 136px;
+}
+
+.favorite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all transform 500ms ease;
+}
+
+.favorite:hover {
+  opacity: 0.75;
+  transform: scale(1.001);
+  color: #4f2cd9;
+}
+
+.iconFavorite {
+  margin-right: 12px;
+  color: #4f2cd9;
+}
+a {
+  text-decoration: none;
+  color: #4f2cd9;
+}

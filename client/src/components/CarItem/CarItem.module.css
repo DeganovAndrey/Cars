@@ -1,0 +1,76 @@
+.carContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.carInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.carContainer img {
+  border: 1px solid #d9d9d9;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  margin-top: 73px;
+}
+.yearAndColor {
+  display: flex;
+  column-gap: 14px;
+}
+.carInfo h3 {
+  margin: 26px 0 12px;
+}
+.price {
+  margin: 12px 0 20px;
+  font-weight: 500;
+}
+.buttonAndFavorite {
+  display: flex;
+  align-items: center;
+}
+
+.iconFavorite {
+  padding-left: 25px;
+  color: #4f2cd9;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.iconFavorite:hover {
+  opacity: 0.7;
+}
+
+.iconFavorite.active,
+.iconFavorite:active {
+  color: #4f2cd9;
+}
+.imageContainer {
+  position: relative;
+}
+
+.unavailable img {
+  opacity: 0.4;
+}
+
+.unavailableOverlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 237px;
+  height: 59px;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.disabled {
+  color: #d9d9d9;
+  pointer-events: none;
+}

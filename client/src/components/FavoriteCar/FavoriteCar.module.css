@@ -1,0 +1,61 @@
+h2 {
+  font-size: 35px;
+}
+.car {
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 65px;
+}
+.carInfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.brandAndModel {
+  font-size: 36px;
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+}
+.car img {
+  border: 1px solid #d9d9d9;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-right: 20px;
+}
+.price {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 34px 0 21px;
+}
+.description {
+  margin: 16px 0;
+}
+.color {
+  margin: 16px 0;
+}
+
+.deleteIcon {
+  color: #d73737;
+  cursor: pointer;
+  transition: all transform 500ms ease;
+  border: 2px solid #d73737;
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.deleteIcon:hover {
+  opacity: 0.8;
+  transform: scale(1.01);
+}
+.buttonAndFavorite {
+  display: flex;
+}
